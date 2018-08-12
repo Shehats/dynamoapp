@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "dynamoapp-executor",
+    "name": "dynamoapp",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "4ef7qe94m7",
+    "module": "app"
+  }
+}

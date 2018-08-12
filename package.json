@@ -1,0 +1,22 @@
+{
+  "name": "dynamoapp",
+  "version": "1.0.0",
+  "description": "A sample project using claudia js and DynamoDB lis Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --region us-east-1 --api-module app",
+    "deploy": "claudia update",
+    "reconfigure": "claudia update --configure-db"
+  },
+  "author": "saleh shehata",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.291.0",
+    "claudia-api-builder": "^4.1.1",
+    "dynamodb": "^1.1.2",
+    "joi": "^13.6.0"
+  },
+  "devDependencies": {
+    "claudia": "^5.1.0"
+  }
+}
